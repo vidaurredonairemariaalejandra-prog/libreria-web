@@ -1,0 +1,6 @@
+E:\proyectos c#\libreria\LibreriaAPI\obj\Debug\net9.0\LibreriaAPI.csproj.AssemblyReference.cache
+E:\proyectos c#\libreria\LibreriaAPI\obj\Debug\net9.0\LibreriaAPI.GeneratedMSBuildEditorConfig.editorconfig
+E:\proyectos c#\libreria\LibreriaAPI\obj\Debug\net9.0\LibreriaAPI.AssemblyInfoInputs.cache
+E:\proyectos c#\libreria\LibreriaAPI\obj\Debug\net9.0\LibreriaAPI.AssemblyInfo.cs
+E:\proyectos c#\libreria\LibreriaAPI\obj\Debug\net9.0\LibreriaAPI.csproj.CoreCompileInputs.cache
+E:\proyectos c#\libreria\LibreriaAPI\obj\Debug\net9.0\LibreriaAPI.MvcApplicationPartsAssemblyInfo.cache

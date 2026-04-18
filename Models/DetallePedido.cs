@@ -6,11 +6,11 @@ namespace LibreriaAPI.Models
 
         // Relación con Pedido
         public int PedidoId { get; set; }
-        public Pedido Pedido { get; set; }
+        public Pedido Pedido { get; set; } = null!;
 
         // Relación con Libro
         public int LibroId { get; set; }
-        public Libro Libro { get; set; }
+        public Libro Libro { get; set; } = null!;
 
         public int Cantidad { get; set; }
     }

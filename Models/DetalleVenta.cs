@@ -4,13 +4,11 @@ namespace LibreriaAPI.Models
     {
         public int Id { get; set; }
 
-        // Relación con Venta
         public int VentaId { get; set; }
-        public Venta Venta { get; set; }
+        public Venta Venta { get; set; } = null!;
 
-        // Relación con Libro
         public int LibroId { get; set; }
-        public Libro Libro { get; set; }
+        public Libro Libro { get; set; } = null!;
 
         public int Cantidad { get; set; }
         public decimal Precio { get; set; }

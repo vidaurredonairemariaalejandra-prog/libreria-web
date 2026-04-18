@@ -3,9 +3,8 @@ namespace LibreriaAPI.Models
     public class Categoria
     {
         public int Id { get; set; }
-        public string Nombre { get; set; }
+        public string Nombre { get; set; } = null!;
 
-        // Relación: una categoría tiene muchos libros
-        public List<Libro> Libros { get; set; }
+        public List<Libro> Libros { get; set; } = new List<Libro>();
     }
 }

@@ -1,5 +1,4 @@
 using LibreriaAPI.Data;
-using LibreriaAPI.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,9 +6,6 @@ var builder = WebApplication.CreateBuilder(args);
 // 🔌 PostgreSQL
 builder.Services.AddDbContext<LibreriaContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-// 📦 Servicios
-builder.Services.AddScoped<LibroService>();
 
 // 🌐 Controllers
 builder.Services.AddControllers();

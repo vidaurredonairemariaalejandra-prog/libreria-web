@@ -8,11 +8,9 @@ namespace LibreriaAPI.Models
         public int Id { get; set; }
         public DateTime Fecha { get; set; }
 
-        // Relación con Usuario
         public int UsuarioId { get; set; }
-        public Usuario Usuario { get; set; }
+        public Usuario Usuario { get; set; } = null!;
 
-        // Relación con DetalleVenta
-        public List<DetalleVenta> Detalles { get; set; }
+        public List<DetalleVenta> Detalles { get; set; } = new List<DetalleVenta>();
     }
 }
